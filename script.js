@@ -2,7 +2,7 @@ function downloadPDF() {
     const element = document.querySelector('.container-lg');
 
     const opt = {
-        margin: [0, 5, 0 , 5],  // [arriba, izquierda, abajo, derecha] en mm
+        margin: [0, 5, -10 , 5],  // [arriba, izquierda, abajo, derecha] en mm
         filename: 'Hoja_de_Vida_jeferson_rios.pdf',
         image: { type: 'jpeg', quality: 0.98 },
         html2canvas: {
